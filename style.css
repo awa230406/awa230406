@@ -1,0 +1,59 @@
+.banner {
+  background: url("img/about\ 1.jpeg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #ffff;
+}
+
+/* navbar color */
+.nav-color{
+  background-color: rgb(196, 35, 35);
+}
+
+
+/* about one piece */
+.about{
+  background-color: #b32424;
+}
+
+.about p{
+  color: rgb(255, 255, 255);
+}
+
+.about h2{
+  color: rgb(255, 255, 255);
+}
+
+/* album */
+.album{
+  background-color: #db1111;
+}
+
+.album img{
+  width: 500px;
+  height: auto;
+}
+/* media queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+  font-size: 70%;
+  }
+  }
+  
+  /* Tablet */
+  @media (max-width: 768px) {
+  html {
+  font-size: 70%;
+  }
+  }
+  
+  /* Mobile Phone */
+  @media (max-width: 450px) {
+  html {
+  font-size: 70%;
+  }
+  }
+
